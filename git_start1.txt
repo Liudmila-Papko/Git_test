@@ -1,0 +1,500 @@
+   46  ls
+   47  find . -name poem.txt
+   48  find . -name "poem.txt"
+   49  find /f3 "*.txt"
+   50  cd f3
+   51  ls
+   52  cd ..
+   53  find */f3 "*.txt"
+   54  find ../f3 "*.txt"
+   55  cd f3
+   56  ls
+   57  cd ..
+   58  tail -f poem.txt | grep "away"
+   59  ls -a >> ls.txt
+   60  cat ls.txt
+   61  readlink -f poem.txt
+   62  find $(pwd) -name poem.txt
+   63  cat poem1.txt
+   64  cat poem1.txt
+   65  >poem1.txt
+   66  > poem1.txt
+   67  cat poem1.txt
+   68  cat > poem1.txt
+   69  cat poem1.txt
+   70  cat /dev/null > poem1.txt
+   71  cat poem1.txt
+   72  realpath poem.txt
+   73  find $(pwd) -name "tf*.txt"
+   74  ls
+   75  find . -name "tf*.txt" | realpath
+   76  find . -name "tf*.txt" | echo readlink
+   77  find . -name "tf*.txt"
+   78  find . -name "tf*.txt" | xargs readlink
+   79  find . -name "tf*.txt" | xargs realpath
+   80  grep away *.txt
+   81  cat >> tf_1.txt
+   82  cat tf_1.txt
+   83  grep sec *
+   84  grep -r away *
+   85  cat > f2.txt
+   86  ls
+   87  mv f2.txt f3.txt
+   88  ls
+   89  find . -type f -name “*”
+   90  find . -type f -name “f"
+   91  find . -type f -name “f*.txt
+   92  find . -type f -name “f*".txt
+   93  find . -type d -name “f*"
+   94  find . -type f -name “f*.txt"
+   95  find . -type f -name “*.txt"
+   96  find . -type f -name "*.txt"
+   97  find . -type f -name "f*.txt"
+   98  find . -name "f*.txt"
+   99  find . -name *
+  100  find . -name f3
+  101  find . -type d -name “f3”
+  102  find . -type d -name “f3*”
+  103  find . -type d -name "f3*"
+  104  grep -r away .
+  105  grep -l sec * | xargs I {} mv {} /f3
+  106  cd f3
+  107  ls
+  108  cat tf_1.txt
+  109  grep -l sec * | xargs -I {} mv {} /f3
+  110  cd f3
+  111  ls
+  112  cd //
+  113  cd ..
+  114  grep -l sec * | xargs -I {} mv {} /f3
+  115  ls
+  116  cd dir_1
+  117  ls
+  118  cd inner_dir_1
+  119  ls
+  120  cd f1
+  121  ls
+  122  cd f2
+  123  ls
+  124  find . -name poem.txt
+  125  find . -name "poem.txt"
+  126  find /f3 "*.txt"
+  127  cd f3
+  128  ls
+  129  cd ..
+  130  find */f3 "*.txt"
+  131  find ../f3 "*.txt"
+  132  cd f3
+  133  ls
+  134  cd ..
+  135  tail -f poem.txt | grep "away"
+  136  ls -a >> ls.txt
+  137  cat ls.txt
+  138  readlink -f poem.txt
+  139  find $(pwd) -name poem.txt
+  140  cat poem1.txt
+  141  cat poem1.txt
+  142  >poem1.txt
+  143  > poem1.txt
+  144  cat poem1.txt
+  145  cat > poem1.txt
+  146  cat poem1.txt
+  147  cat /dev/null > poem1.txt
+  148  cat poem1.txt
+  149  realpath poem.txt
+  150  find $(pwd) -name "tf*.txt"
+  151  ls
+  152  find . -name "tf*.txt" | realpath
+  153  find . -name "tf*.txt" | echo readlink
+  154  find . -name "tf*.txt"
+  155  find . -name "tf*.txt" | xargs readlink
+  156  find . -name "tf*.txt" | xargs realpath
+  157  grep away *.txt
+  158  cat >> tf_1.txt
+  159  cat tf_1.txt
+  160  grep sec *
+  161  grep -r away *
+  162  cat > f2.txt
+  163  ls
+  164  mv f2.txt f3.txt
+  165  ls
+  166  find . -type f -name “*”
+  167  find . -type f -name “f"
+  168  find . -type f -name “f*.txt
+  169  find . -type f -name “f*".txt
+  170  find . -type d -name “f*"
+  171  find . -type f -name “f*.txt"
+  172  find . -type f -name “*.txt"
+  173  find . -type f -name "*.txt"
+  174  find . -type f -name "f*.txt"
+  175  find . -name "f*.txt"
+  176  find . -name *
+  177  find . -name f3
+  178  find . -type d -name “f3”
+  179  find . -type d -name “f3*”
+  180  find . -type d -name "f3*"
+  181  grep -r away .
+  182  grep -l sec * | xargs I {} mv {} /f3
+  183  cd f3
+  184  ls
+  185  cat tf_1.txt
+  186  grep -l sec * | xargs -I {} mv {} /f3
+  187  cd f3
+  188  ls
+  189  cd //
+  190  cd ..
+  191  grep -l sec * | xargs -I {} mv {} /f3
+  192  ls -R -la /f3
+  193  ls -R -la f3
+  194  ls -R f3
+  195  ls -R /f3
+  196  cd ..
+  197  cd ..
+  198  pwd
+  199  cd ../..
+  200  cd inner_dir_1
+  201  ls
+  202  cd dir_1
+  203  cd inner_dir_1
+  204  ls
+  205  cd f1
+  206  ls -r
+  207  ls -R f3
+  208  ls -R f2
+  209  cat poem.txt | sort > poem.txt
+  210  cat poem1.txt | sort > poem1.txt
+  211  cd f2
+  212  cat poem1.txt | sort > poem1.txt
+  213  cat poem1.txt
+  214  grep -rl sec
+  215  grep -r -m2 poem*
+  216  grep -r -m2 away
+  217  curl ifconfig.me
+  218  cd ..
+  219  cd ..
+  220  grep -r away ./*/
+  221  find . -cmin 60
+  222  find * -cmin 60
+  223  find . -cmin 60 ./*/
+  224  find . -r -cmin 60 ./f1/
+  225  find . -cmin 60 ./f1/
+  226  ls
+  227  find . -cmin 60 ./f1/*/
+  228  cd /f1
+  229  cd f1
+  230  cd f2
+  231  ls
+  232  find . -cmin 60
+  233  find . -cmin -60
+  234  grep -lrw away | xargs -I {} cp {} /f3
+  235  cd f3
+  236  ls
+  237  grep -lrw away | xargs -I {} cp {} ../f3
+  238  cd f3
+  239  cd ..
+  240  grep -lrw away | xargs -I {} cp {} ../f3
+  241  ls -R -la
+  242  cd ..
+  243  ls
+  244  cat poem1.txt
+  245  mkdir copy
+  246  grep -lrw away | xargs -I {} cp {} ../copy
+  247  grep -l away * | xargs -I {} cp {} ../copy
+  248  grep -l away * | xargs -I {} cp {} copy
+  249  grep -l away | xargs -I {} cp {} copy file.txt
+  250  grep -l away | xargs -I {} cp {} file.txt copy
+  251  grep -l away | xargs -I {} cp {} copy
+  252  mkdir common | echo hello | cat > common/t.txt
+  253  mkdir new_folder2 ; cat > new_folder2/new_file.txt
+  254  pwd
+  255  mkdir folder
+  256  cd folder/
+  257  mkdir f1 f2 f3
+  258  cd f1
+  259  touch tf_{1..3}.txt js1.json js2.json
+  260  mkdir s1 s2 s3
+  261  ls -l
+  262  vim tf_1.txt
+  263  cd ..
+  264  ls
+  265  cd f1
+  266  ls
+  267  mv tf_1.txt tf_2.txt s1
+  268  cd s1
+  269  ls
+  270  cd ..
+  271  cp js1.json js2.json s2
+  272  cd s2
+  273  ls
+  274  cd ..
+  275  find . "js1.json" ./*
+  276  find . js1.json ./*
+  277  find . js1.json
+  278  find . -name js1.json
+  279  tail -f tf_1.txt
+  280  cd f1
+  281  s1
+  282  cd s1
+  283  tail -f tf_1.txt
+  284  head -n 3 tf_1.txt
+  285  tail -n 3 tf_1.txt
+  286  less tf_1.txt
+  287  data
+  288  date
+  289  less tf_1.txt
+  290  less -N tf_1/txt
+  291  less N tf_1/txt
+  292  less tf_1/txt
+  293  less -N tf_1.txt
+  294  nano script.sh
+  295  ./script.sh
+  296  chmod +x script.sh
+  297  ./script.sh
+  298  cat script.sh
+  299  touch script.sh
+  300  nano script.sh 
+  301  chmod +x script.sh
+  302  ./script.sh
+  303  ls -l
+  304  cd ../../..
+  305  pwd
+  306  mkdir dir_1
+  307  cd dir_1/
+  308  mkdir inner_dir_1
+  309  pwd
+  310  >tf_1.txt
+  311  cat > tf_2.txt
+  312  cd inner_dir_1/
+  313  cat > tf_3.txt 
+  314  cat >> tf_3.txt
+  315  cat >> tf_2.txt
+  316  for i in {1..15} do echo "line $i" done > tf_4.txt 
+  317  for i in {1..15} do echo "line $i" done >> tf_4.txt 
+  318  for i in {1..15}; do echo "line $i"; done > tf_4.txt 
+  319  for i in {1..13}; do echo "line $i"; done > tf_5.txt 
+  320  ls -l
+  321  cd ..
+  322  cat tf_3.txt
+  323  cat inner_dir_1/tf_3.txt
+  324  realpath tf_4.txt
+  325  >tf_4.txt
+  326  cat inner_dir_1/tf_4.txt
+  327  ls
+  328  cat tf_4.txt
+  329  cd inner_dir_1/
+  330  >tf_4.txt
+  331  cat tf_4.txt
+  332  find . -name "tf" ./
+  333  find . -name "tf*" ./
+  334  find . tpe f -name "tf*" | xargs realpath
+  335  find . type f -name "tf*" | xargs realpath
+  336  find * type f -name "tf*" | xargs realpath
+  337  find * type f -name "tf*" | xargs realpath
+  338  cd ..
+  339  find . -iname "tf*"
+  340  grep sec .
+  341  grep sec *
+  342  grep -i sec *
+  343  ls
+  344  cd inner_dir_1/
+  345  grep -i sec *
+  346  grep -iw sec *
+  347  grep -iw second *
+  348  grep -w second *
+  349  grep -w second */
+  350  grep -rw second *
+  351  grep -r sec *
+  352  grep -r sec */
+  353  cd ..
+  354  grep -r sec */
+  355  grep -r sec *
+  356  grep -l second * 
+  357  grep -l second * | xargs realpath
+  358  grep -rv second * 
+  359  grep -rvl second * 
+  360  grep -rvl second * | xargs realpath
+  361  tail -n 4 tf_2.txt
+  362  mkdir f1 | cat > file.txt
+  363  mkdir f1 | cat file.txt
+  364  mkdir f2 | cat file1.txt
+  365  mkdir f2 | cat > file1.txt
+  366  mkdir f3 | cat > file1.txt
+  367  mkdir f4 | echo "hello" >> file_2.txt
+  368  mkdir f4 | echo "hello" > file_2.txt
+  369  mkdir f5 | echo "hello" > file_2.txt
+  370  mkdir f6; cat > f6/tf_6.txt
+  371  cat f6/tf_6.txt
+  372  grep -l sec | xargs -I {} mv {} inner_dir_1
+  373  grep -l sec | xargs -I {} mv {} inner_dir_1
+  374  grep -l sec | xargs -I {} mv {} /inner_dir_1
+  375  grep -l sec * | xargs -I {} mv {} inner_dir_1
+  376  grep -l sec * | xargs -I {} copy {} inner_dir_1
+  377  grep -l sec * | xargs -I {} copy {} inner_dir_1
+  378  grep -l sec * | xargs -I {} cp {} inner_dir_1
+  379  cd inner_dir_1/
+  380  grep -r sec . | cat > sec.txt
+  381  cat sec.txt
+  382  grep -rl sec . | cat > sec.txt
+  383  cat sec.txt
+  384  grep -rh sec . | cat > sec.txt
+  385  cat sec.txt
+  386  rm sec.txt
+  387  grep -rh sec . | cat > sec.txt
+  388  cat sec.txt
+  389  grep '^t' sec.txt
+  390  grep 'n$' sec.txt
+  391  grep '2$' sec.txt
+  392  grep -n '2$' sec.txt
+  393  find . -type f -name "tf*"
+  394  find . -type f -name "*.txt"
+  395  cd ..
+  396  find . -type d -name "*"
+  397  mkdir new | echo tratata | cat > new.txt
+  398  ls
+  399  mkdir new1 | echo tratata | cat > new1/new.txt
+  400  cat tratata.txt
+  401  cat new.txt
+  402  ls
+  403  mv file.txt f1/
+  404  ls
+  405  mv f2 f3/
+  406  ls
+  407  mv *txt new/
+  408  ls
+  409  find . -type d -empty -delete
+  410  ls
+  411  cd new
+  412  ls
+  413  find . -name -print "t*.txt"
+  414  find . -name -print "*.txt"
+  415  find . -name -print '*.txt'
+  416  find . -name -print 'tf*.txt'
+  417  find . -print 'tf*.txt'
+  418  find . -name "tf*.txt"
+  419  grep . -e 'sec' -e 'second'
+  420  grep -e 'sec' -e 'second'
+  421  grep -e 'sec' -e 'second' *
+  422  sh script.sh
+  423  bash script.sh
+  424  pwd
+  425  mkdir scrining
+  426  cd scrining/
+  427  mkdir new_folder{1..3}
+  428  ls
+  429  cd new_folder1
+  430  touch f1.txt
+  431  cat > f2.txt
+  432  ls
+  433  vim f2.txt
+  434  mv f2.txt f3.txt
+  435  ls
+  436  mv f3.txt new_folder2/f3.txt
+  437  cd ..
+  438  mv f3.txt new_folder2/f3.txt
+  439  cd new_folder1
+  440  ls
+  441  mv f3.txt /new_folder2/f3.txt
+  442  mv new_folder1/f3.txt new_folder2/f3.txt
+  443  mv f3.txt folder2
+  444  cd folder2
+  445  cd new_folder2
+  446  cd ../new_folder2
+  447  ls
+  448  cd new_folder1
+  449  cd ../new_folder1
+  450  ls
+  451  mv folder2 f2.txt
+  452  mv f2.txt /new_folder1
+  453  mv f2.txt /new_folder2
+  454  mv f2.txt new_folder2/
+  455  mv f2.txt /new_folder2
+  456  mv f2.txt /new_folder2/f2.txt
+  457  mv f2.txt new_folder2/
+  458  ls
+  459  mv f1.txt new_folder2/
+  460  ls
+  461  cd..
+  462  cd ..
+  463  ls
+  464  cd newfolder1
+  465  cd new_folder1
+  466  ls
+  467  find . -name f1.txt | xargs mv new_folder1
+  468  find . -name f1.txt | xargs mv new_folder2
+  469  mv f1.txt ../new_folder2
+  470  ls
+  471  cd new_folder2
+  472  cd ..
+  473  cd new_folder2
+  474  ls
+  475  mv f1.txt ../new_folder3
+  476  cd ../new_folder3
+  477  ls
+  478  cp f1.txt ../new_folder2
+  479  cd ../new_folder2
+  480  ls
+  481  rm f1.txt
+  482  ls
+  483  cd ..
+  484  rm scrining
+  485  cd ..
+  486  rm scrining
+  487  rm -type d scrining
+  488  rm -r scrining
+  489  ls
+  490  cd scrining
+  491  clear
+  492  find . -name "log*" 
+  493  find . -type d -name "log*" 
+  494  grep -r масл *
+  495  grep -r "мас*" *
+  496  cd ..
+  497  grep -r "мас*" *
+  498  grep -r "маслени*" *
+  499  git clone https://github.com/Liudmila-Papko/Git_test.git
+  500  ls -la
+  501  cd Git_test/
+  502  ls
+  503  cd ..
+  504  cd Git_test/
+  505  ls -la
+  506  cat > names.json
+  507  vim names.json 
+  508  cat names.json 
+  509  git status
+  510  git add names.json
+  511  git status 
+  512  git commit -m "add names file"
+  513  git config --global "dakini.test@gmail.com"
+  514  git config -- global user.name "Liudmila-Papko"
+  515  git config --global user.name "Liudmila-Papko"
+  516  git commit -m "add names file"
+  517  git config --global user.email "dakini.test@gmail.com"
+  518  git config --global user.name "Liudmila-Papko"
+  519  git commit -m "add names file"
+  520  git push
+  521  git fetch
+  522  git pull
+  523  git fetch
+  524  touch names.xml
+  525  vim names.xml
+  526  cat names.xml
+  527  touch names.txt
+  528  vim names.txt
+  529  git status
+  530  git add .
+  531  git status
+  532  git commit -m add names file xml txt
+  533  git commit -m "add names file xml txt"
+  534  vim names.txt
+  535  git status
+  536  git restore names.txt
+  537  git status
+  538  vim names.txt
+  539  vim names.xml
+  540  git status
+  541  git commit -am "add names to files"
+  542  git status
+  543  git pull
+  544  git push
+  545  history > git_start1.txt
